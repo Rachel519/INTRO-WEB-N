@@ -1,0 +1,61 @@
+<!-- 1. Introducción a HTML (30 minutos)
+Objetivo : Comprender la estructura de un documento HTML.
+Tareas :
+Obtenga más información sobre DOCTYPE, <html>, <head>y <body>etiquetas -->
+<!--
+    DOCTYPE:No es una etiqueta, sino una declaraciòn sobre la versiòn de html que se esta utilizando, en anteriore versiones de HTML la declaración era más compleja porque se debe hacer referencia a una DTD.
+    
+    <html> Dentro de la etiqueta se encuentran los demás elementos HTML exceptuando a <!DOCTYPE>. Se debe incluir el atributo lang para determinar el idioma.
+
+    <head> Se enuentra la inforación que no es visible en e documento,pero sí el titulo que tendra nuestra página web, el cual es un contenedor de metadatos, su ubicación es entre <html> y <body>. Dentro de <head> tambien pueden incluirse elementos como <title>,<style>,<base>, <link>, entre otros.
+
+    <body> Dentro de esta etiqueta se encuentra los datos que se mostraran en el sitio web, dentro de esta se pueden agregar titulos,parrafos, color, imagenes, tablas, links, etc.
+
+Referencias:
+-HTML. (s/f). W3schools.com. Recuperado el 17 de abril de 2024, de https://www.w3schools.com/tags/tag_body.asp
+-Coppola, M. (2023, julio 19). Etiquetas de HTML: qué son, para qué sirven y tipos principales. Hubspot.es. https://blog.hubspot.es/website/etiquetas-html
+-->
+<!--Explore etiquetas básicas como <h1>, <p>, <a>, <img>, <ul>y <li>.-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento sobre gatitos</title>
+</head>
+<body>
+    <h1>Gatos</h1>
+
+    <p>Los gatos domésticos, sea cual sea su raza, son todos miembros de una misma especie, Felis silvestris catus, que mantiene una relación con los humanos desde hace mucho tiempo. Los antiguos egipcios habrían sido los primeros en domesticar gatos, hace ya 4000 años, pero hay registros arqueológicos que sitúan a los gatos (o sus antepesados) conviviendo con los humanos en Oriente Próximo y Europa miles de años antes. Probablemente, los gatos salvajes se vieron atraídos a las comunidades humanas por la abundancia de roedores que había en ellas, y su habilidad para cazarlos les hizo ganarse la simpatía de sus habitantes.</p>
+    <br>
+    <br>
+    
+    <img src="../gato3.jpg" height="400" alt="Foto de un gato">
+    <br>
+    <br>
+    <br>
+
+    <h3>A continuación se enlista países con mayor indice de gatos</h3>
+    <ol>
+        <li>Estados Unidos</li>
+        <li>China</li>
+        <li>Rusia</li>
+    </ol>
+
+    <h3>Tipos de gatos</h3>
+    <ul> 
+        <li>Gato de bengala</li>
+        <li>Van turco</li>
+        <li>Gato americano</li>
+        <li>gato comun europeo</li>
+        <li>Gato habana</li>
+        <li>Gato elfo</li>
+
+
+    </ul>
+
+
+    <a href="https://www.nationalgeographic.es/animales/gato-domestico" target="_blank"> Para más información</a>
+
+</body>
+</html>
